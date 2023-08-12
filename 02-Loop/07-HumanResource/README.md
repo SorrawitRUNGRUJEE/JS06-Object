@@ -10,3 +10,7 @@ const employees = {
 };
 
 ```
+
+function checkEmployee(name){
+  for(let k in employee)
+}
