@@ -9,14 +9,14 @@ let todo = {
 }
 
 
-// // method 1 use for loop
-// const newToDo = {}
+// method 1 use for loop
+const newToDo = {}
 
-// for( key in todo){
-//     // assign new key and value for newToDo
-// newToDo[key] = todo[key]
+for( key in todo){
+    // assign new key and value for newToDo
+newToDo[key] = todo[key]
 
-// }
+}
 
 
 // log(newToDo)
@@ -26,7 +26,7 @@ let todo = {
 
 // method 2 object.assign
 
-const newToDo ={}
+// const newToDo ={}
 // merge overide
 // if there are two identical key
 // it will merge right over left
